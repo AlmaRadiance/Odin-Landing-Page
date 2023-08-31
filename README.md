@@ -1,2 +1,2 @@
 # Odin-Landing-Page
-first commit
+first commit 
