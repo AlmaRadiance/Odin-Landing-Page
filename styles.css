@@ -75,3 +75,24 @@ button {
     border-color: white;
     border-radius: 5px;
 }
+
+.quote-block {
+    font-weight: light;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    text-align: left;
+    padding: 100px;
+}
+
+.quote-right{
+    text-align: right;
+    font-weight: bold;
+  }
+
+  footer{
+    background-color: #1F2937;
+    color:white;
+    text-align: center;
+    padding: 100px;
+}
