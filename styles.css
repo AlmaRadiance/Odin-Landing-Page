@@ -2,3 +2,11 @@ body {
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.logo {
+    font-size: 25px;
+    color: #F9FAF8;
+    padding: 100px;
+    text-align: left;
+    font-weight: bold;
+}
