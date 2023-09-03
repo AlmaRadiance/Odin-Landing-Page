@@ -18,3 +18,23 @@ body {
     padding: 20px 10px;
     overflow: hidden;
 }
+
+.header a {
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 4px;
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header a.active {
+    color: purple;
+    background-color: orange;
+}
