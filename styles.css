@@ -38,3 +38,11 @@ body {
     color: purple;
     background-color: orange;
 }
+
+.main {
+    font-size: 48px;
+    font-weight; extra-bold;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 100px;
+}
