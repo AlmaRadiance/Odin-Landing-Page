@@ -4,7 +4,7 @@ body {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 24px;
     color: #F9FAF8;
     padding: 100px;
     text-align: left;
@@ -17,6 +17,7 @@ body {
     background-color: #1F2937;
     padding: 20px 10px;
     overflow: hidden;
+    align-items: center;
 }
 
 .header a {
@@ -45,11 +46,31 @@ body {
     color: #F9FAF8;
     background-color: #1F2937;
     padding: 100px;
+    float: left;
+}
+
+.placeholder {
+    float: right;
+}
+
+h1 {
+    text-align: center;
 }
 
 .gallery {
     text-align: center;
     padding: 100px;
+    font-size: 18px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+
+.container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: olivedrab;
+    margin:0;
 }
 
 .cta-button {
@@ -62,18 +83,24 @@ body {
     color: #F9FAF8;
     border-radius: 5px;
     padding: 20px;
+    font-size:18px;
 }
 
 button {
     background-color:#3882F6;
     color: white;
-    width: 70px;
     text-align: center;
     font-weight: bold;
     border-style: solid;
     border-width: 2px;
     border-color: white;
     border-radius: 5px;
+    padding: 15px 100px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 .quote-block {
@@ -88,6 +115,7 @@ button {
 .quote-right{
     text-align: right;
     font-weight: bold;
+    font-size: 36px;
   }
 
   footer{
@@ -95,4 +123,5 @@ button {
     color:white;
     text-align: center;
     padding: 100px;
+    font-size:18px;
 }
