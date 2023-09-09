@@ -30,12 +30,13 @@ a {
 .logo {
     width: 50px;
     height: 50px;
+    margin-left:30px;
 }
 
 .header-links a {
     color: #E5E7EB;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 40px;
     font-size: 18px;
 }
 
@@ -74,7 +75,7 @@ a {
 
 .hero-button {
     display: inline-block;
-    background-color: #3882F6;
+    background-color: rgb(174,12,0);
     color: #F9FAF8;
     font-weight: bold;
     border: none;
@@ -86,7 +87,8 @@ a {
 }
 
 .hero-button:hover {
-    background-color: #1F2937;
+    background-color:  rgb(203,161,53);
+    ;
 }
 
 
@@ -95,6 +97,8 @@ a {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 90px;
 }
 
 
@@ -226,7 +230,7 @@ a {
     outline-width: thin;
     outline-color: #3882F6;
     text-align: left;
-    background-color: #3882F6;
+    background-color: rgba(36, 13, 35, 0.9);
     color: #F9FAF8;
     border-radius: 5px;
     padding: 20px;
@@ -258,7 +262,7 @@ a {
 }
 
 button {
-    background-color: #1F2937;
+    background-color:rgb(174,12,0);
     color: #F9FAF8;
     text-align: center;
     font-weight: bold;
@@ -276,7 +280,7 @@ button {
 }
 
 button:hover {
-    background-color: #3882F6;
+    background-color: rgb(203,161,53);
 }
 
 
