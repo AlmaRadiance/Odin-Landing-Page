@@ -1,27 +1,35 @@
 body {
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #4B5563;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /* Header Section */
 
 .header {
     font-size: 18px;
     color: #E5E7EB;
-    background-color: #1F2937;
-    padding: 20px 0px;
+    background-color: rgba(31, 41, 55, 0.9); 
+    padding: 18px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    padding: 100px;
-    text-align: left;
-    font-weight: bold;
+    width: 50px;
+    height: 50px;
 }
 
 .header-links a {
@@ -29,8 +37,6 @@ body {
     text-decoration: none;
     margin-right: 20px;
     font-size: 18px;
-    text-align: center;
-    padding: 12px;
 }
 
 
@@ -38,44 +44,57 @@ body {
 
 /* Hero Section */
 .hero {
-    color: #F9FAF8;
-    background-color: #1F2937;
+    background-color: #F9FAF8;
+    color: #1F2937;
     padding: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #D1D5DB;
 }
 
 .hero-content {
-    flex: 1;
-}
+    max-width: 600px;
+    margin: auto;}
 
-h1 {
+.hero h1 {
     font-size: 48px;
     font-weight: bold;
-    padding-right: 25px;
-}
+    margin-bottom: 20px;
+    color: #1F2937;}
 
 .hero-paragraph {
-    font-size: 18px;
+    font-size: 20px;
     padding-right: 25px;
+    margin-bottom: 30px;
+    color: #4B5563;
 }
 
 .hero-button {
+    display: inline-block;
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     font-weight: bold;
     border: none;
     padding: 15px 30px;
     font-size: 18px;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
     cursor: pointer;
 }
+
+.hero-button:hover {
+    background-color: #1F2937;
+}
+
 
 /* Placeholder Image */
 .placeholder img{
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 
@@ -84,27 +103,88 @@ h1 {
 /* Information Section */
 .information {
     text-align: center;
+    background-color: #F9FAF8;
+    padding: 100px;
 }
 
 .info-title {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937
+    margin-bottom: 20px;
+}
+
+.info-paragraph {
+    font-size: 18px;
+    color: #4B5563;
+    margin-bottom: 50px;
 }
 
 .info-images {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .info-image {
     text-align: center;
-    margin: 20px;
+    margin: 0 20px;
 }
 
 .info-image img {
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
+    margin-bottom: 10px;
+}
+
+.info-image p {
+    font-size: 18px;
+    color: #4B5563;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* Features Section */
+.features {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.features-title {
+    color: #F9FAF8;
+}
+
+.feature {
+    background-color: #2D3B4C;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.feature:hover {
+    transform: scale(1.05);
 }
 
 
@@ -112,22 +192,29 @@ h1 {
 
 /* Quote Section */
 .quote {
-    color: #1F2937;
-    background-color: #E5E7EB;
-    padding: 30px;
+    background-color: #F9FAF8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.quote-content {
+    max-width: 800px;
+    margin: auto;
 }
 
 .quote-text {
-    font-size: 36px;
+    font-size: 24px;
     font-style: italic;
     margin-bottom: 20px;
 }
 
 .quote-author{
-    text-align: right;
+    color: #4B5563;
     font-weight: bold;
     font-size: 18px;
+    text-align: right;
   }
+
 
 
 
@@ -151,23 +238,28 @@ h1 {
 
 .cta-content {
     flex: 1;
+    max-width: 600px;
+    margin: auto;
 }
 
 .cta-title {
     font-size: 36px;
     font-weight: extra-bold;
     text-align: left;
-    margin-bottom: 10px;
+    color: #F9FAF8;
+    margin-bottom: 20px;
 }
 
 .cta-paragraph {
     font-size: 18px;
     text-align: left;
+    color: #F9FAF8;
+    margin-bottom: 30px;
 }
 
 button {
-    background-color:#3882F6;
-    color: white;
+    background-color: #1F2937;
+    color: #F9FAF8;
     text-align: center;
     font-weight: bold;
     border-style: solid;
@@ -180,15 +272,19 @@ button {
     font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
+button:hover {
+    background-color: #3882F6;
+}
 
 
 
 /* Footer Section */
   .footer {
     background-color: #1F2937;
-    color:white;
+    color: #F9FAF8;
     text-align: center;
     padding:  30px 0;
     font-size:18px;
