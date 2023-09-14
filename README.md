@@ -1,6 +1,6 @@
 # Pill Reminder-Odin Landing Page
 
-This project was completed as part of the Odin Project curriculum. I created a complete web page based on the provided design images. The design consisted of two images: one showcasing the complete website, and the other detailing fonts and colors used. The project focuses on replicating the design as closely as possible, utilizing HTML and CSS skills.
+This project was completed as part of "The Odin Project" Foundations Course curriculum. I created a complete web page based on the provided design images. The design consisted of two images: one showcasing the complete website, and the other detailing fonts and colors used. The project focuses on replicating the design as closely as possible, utilizing HTML and CSS skills.
 
 ## Table of Contents
 - [Project Title and Overview](#project-title-and-overview)
